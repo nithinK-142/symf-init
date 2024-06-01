@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>
-			{% block title %}Welcome!
+			{% block title %}Symfony
 			{% endblock %}
 		</title>
 		<link
@@ -16,12 +17,6 @@
 		{% block javascripts %}
 			{{ encore_entry_script_tags('app') }}
 		{% endblock %}
-		<style>
-			body {
-				background-color: #212121;
-				color: #FFF;
-			}
-		</style>
 	</head>
 	<body>
 		{% block body %}{% endblock %}
